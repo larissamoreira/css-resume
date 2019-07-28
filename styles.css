@@ -1,0 +1,101 @@
+
+/* @font-face {
+    font-family: 'Museo Sans';
+    src: url(../fonts/museo-sants.ttf);
+} */
+
+/*************************************/
+/* Global */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    min-height: 175px;
+}
+
+a {
+    color: #F6EFA6;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: 'Schoolbell', cursive;
+    font-weight: 400; /*default bold is 800*/
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+/*************************************/
+/* Header and Footer */
+
+header, footer {
+    background: #66B3BA;
+    color: #D9DBF1;
+}
+
+header h1, header h2 {
+    color: #EEEEFF;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 250px;
+    border-radius: 70px;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-info a {
+    padding: 40px;
+    display: inline-block;
+}
+
+/*************************************/
+/* Sections */
+.work { 
+    background: #F6EFA6;
+}
+
+.education {
+    background: #ACB0BD;
+}
+/*************************************/
